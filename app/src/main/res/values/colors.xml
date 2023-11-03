@@ -2,4 +2,7 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="hint_color">#FF808080</color> <!-- Example hint color (gray) -->
+    <color name="text_color">#FF000000</color> <!-- Example text color (black) -->
+
 </resources>

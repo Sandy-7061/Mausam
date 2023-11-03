@@ -8,6 +8,7 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+
     <androidx.appcompat.widget.SearchView
         android:id="@+id/searchView"
         android:layout_width="match_parent"
@@ -19,8 +20,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:queryHint="Search City"
+        app:searchIcon="@drawable/search"
+         />
 
-        app:searchIcon="@drawable/search"></androidx.appcompat.widget.SearchView>
 
     <TextView
         android:id="@+id/citytxt"
@@ -167,20 +169,20 @@
 
     </TextView>
 
-    <TextView
-        android:layout_width="96dp"
-        android:layout_height="68dp"
-        android:layout_marginBottom="10dp"
-        android:fontFamily="@font/merriweathersans_bold"
-        android:gravity="center"
-        android:text="Made by \n Sandeep"
-        android:textColor="#3D7A7C"
-        android:textSize="20dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/frameLayout2"
-        tools:ignore="MissingConstraints" />
+<!--    <TextView-->
+<!--        android:layout_width="96dp"-->
+<!--        android:layout_height="68dp"-->
+<!--        android:layout_marginBottom="10dp"-->
+<!--        android:fontFamily="@font/merriweathersans_bold"-->
+<!--        android:gravity="center"-->
+<!--        android:text="Made by \n Sandeep"-->
+<!--        android:textColor="#3D7A7C"-->
+<!--        android:textSize="20dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/frameLayout2"-->
+<!--        tools:ignore="MissingConstraints" />-->
 
     <FrameLayout
         android:id="@+id/frameLayout2"

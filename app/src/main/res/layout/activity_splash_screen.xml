@@ -7,46 +7,46 @@
     tools:context=".Splash_Screen"
     android:gravity="center"
     android:orientation="vertical"
-    android:background="@drawable/splas_new">
+    android:background="@drawable/splash_back">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/white_cloud"
-        tools:layout_editor_absoluteX="100dp"
-        tools:layout_editor_absoluteY="145dp">
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:src="@drawable/white_cloud"-->
+<!--        tools:layout_editor_absoluteX="100dp"-->
+<!--        tools:layout_editor_absoluteY="145dp">-->
 
-    </ImageView>
+<!--    </ImageView>-->
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="56dp"
-        android:fontFamily="@font/atomic_age"
-        android:includeFontPadding="false"
-        android:rotation="-2"
-        android:rotationX="-6"
-        android:rotationY="-19"
-        android:text="Weather Maters \n I Make your Day Best"
-        android:textAlignment="center"
-        android:textColor="#2376C8"
-        android:textSize="20dp"
-        >
+<!--    <TextView-->
+<!--        android:id="@+id/textView"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="56dp"-->
+<!--        android:fontFamily="@font/atomic_age"-->
+<!--        android:includeFontPadding="false"-->
+<!--        android:rotation="-2"-->
+<!--        android:rotationX="-6"-->
+<!--        android:rotationY="-19"-->
+<!--        android:text="Weather Maters \n I Make your Day Best"-->
+<!--        android:textAlignment="center"-->
+<!--        android:textColor="#2376C8"-->
+<!--        android:textSize="20dp"-->
+<!--        >-->
 
-    </TextView>
+<!--    </TextView>-->
 
-    <TextView
-        android:layout_width="123dp"
-        android:layout_height="96dp"
-        android:fontFamily="@font/akronim"
-        android:text="Made By \n Sandeep"
-        android:textAlignment="center"
-        android:textColor="#0288D1"
-        android:textSize="35dp"
-        android:layout_marginTop="300dp">
+<!--    <TextView-->
+<!--        android:layout_width="123dp"-->
+<!--        android:layout_height="96dp"-->
+<!--        android:fontFamily="@font/akronim"-->
+<!--        android:text="Made By \n Sandeep"-->
+<!--        android:textAlignment="center"-->
+<!--        android:textColor="#0288D1"-->
+<!--        android:textSize="35dp"-->
+<!--        android:layout_marginTop="300dp">-->
 
-    </TextView>
+<!--    </TextView>-->
 
 </LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources><style name="CustomHintTextAppearance">
+    <item name="android:textColor">@color/hint_color</item> <!-- Set the hint color -->
+</style>
+
+</resources>
